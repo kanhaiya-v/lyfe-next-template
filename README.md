@@ -46,7 +46,7 @@ src/
 
 ```bash
 # Create a new project using the template
-pnpm dlx lyfe init <project-name>
+pnpm dlx lyfe-cli init <project-name>
 
 # Navigate to project directory
 cd <project-name>
@@ -86,7 +86,7 @@ pnpm dev
   - kebab-case for files
   - PascalCase for components
 - Use shadcn/ui components as building blocks
-- Use `pnpm lyfe add <component/template-name>` for additional components or template built as shareable.
+- Use `pnpm lyfe-cli add <component/template-name>` for additional components or template built as shareable.
 
 ### State Management (Zustand)
 - Lightweight, scalable state management per feature
