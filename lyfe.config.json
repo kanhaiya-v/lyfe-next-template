@@ -1,10 +1,18 @@
 {
   "name": "lyfe",
   "description": "lyfe is a cli for creating and managing lyzr projects",
-  "version": "0.0.1",
-  "alias": {
-    "templates": "src/templates/lyfe",
-    "components": "src/components/lyfe",
-    "utils": "src/utils/lyfe"
+  "version": "1.0.0",
+  "aliases-local": {
+    "templates": "@/lyfe/templates",
+    "components": "@/lyfe/components",
+    "utils": "@/lyfe/utils",
+    "hooks": "@/lyfe/hooks"
+  },
+  "aliases-shadcn": {
+    "components": "@/shadcn/components",
+    "utils": "@/shadcn/lib/utils",
+    "ui": "@/shadcn/components/ui",
+    "lib": "@/shadcn/lib",
+    "hooks": "@/shadcn/hooks"
   }
 }
